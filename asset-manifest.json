@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/banditmanchot/static/css/main.8f1d3ba6.css",
+    "main.css": "/banditmanchot/static/css/main.54d64cd6.css",
     "main.js": "/banditmanchot/static/js/main.4b4764cd.js",
     "static/media/image6.png": "/banditmanchot/static/media/image6.e0193716da58d84e7121.png",
     "static/media/image 2.png": "/banditmanchot/static/media/image 2.dd196d92c9be35cf4de8.png",
@@ -30,11 +30,11 @@
     "static/media/bottomLeft.svg": "/banditmanchot/static/media/bottomLeft.cc2aad60cb8eb9e9b41218f3da70c046.svg",
     "static/media/topLeft.svg": "/banditmanchot/static/media/topLeft.9590a659c03ec1beaf31386b25bb16e1.svg",
     "static/media/bottomRight.svg": "/banditmanchot/static/media/bottomRight.a91fb58ae90cf78ad1b88cccbd1f92ab.svg",
-    "main.8f1d3ba6.css.map": "/banditmanchot/static/css/main.8f1d3ba6.css.map",
+    "main.54d64cd6.css.map": "/banditmanchot/static/css/main.54d64cd6.css.map",
     "main.4b4764cd.js.map": "/banditmanchot/static/js/main.4b4764cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f1d3ba6.css",
+    "static/css/main.54d64cd6.css",
     "static/js/main.4b4764cd.js"
   ]
 }

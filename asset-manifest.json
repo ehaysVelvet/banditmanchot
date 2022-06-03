@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/banditmanchot/static/css/main.8f1d3ba6.css",
+    "main.js": "/banditmanchot/static/js/main.bf2c5051.js",
+    "static/media/image6.png": "/banditmanchot/static/media/image6.e0193716da58d84e7121.png",
+    "static/media/image 2.png": "/banditmanchot/static/media/image 2.dd196d92c9be35cf4de8.png",
+    "static/media/image2.png": "/banditmanchot/static/media/image2.a59fc94543c3eadee4da.png",
+    "static/media/imageback.png": "/banditmanchot/static/media/imageback.5e2b529b34a1faad788d.png",
+    "static/media/image3.png": "/banditmanchot/static/media/image3.22ce42e10f9889fff3a1.png",
+    "static/media/Logo Velvet Bronze.png": "/banditmanchot/static/media/Logo Velvet Bronze.5214ac1aadb92b6c40b5.png",
+    "static/media/image 5.png": "/banditmanchot/static/media/image 5.7f7cc57010ba0b846533.png",
+    "static/media/image5.png": "/banditmanchot/static/media/image5.a3e7b1ee386942e290ad.png",
+    "static/media/Logo Velvet Argent.png": "/banditmanchot/static/media/Logo Velvet Argent.604bba10f523f8dfab56.png",
+    "static/media/logo-velvet_big.png": "/banditmanchot/static/media/logo-velvet_big.69bbbf6f2fd0d4e394a2.png",
+    "static/media/image7.png": "/banditmanchot/static/media/image7.b76b18cd27db5918b252.png",
+    "static/media/image 3.png": "/banditmanchot/static/media/image 3.3a121809fb5f81d21c27.png",
+    "static/media/image 6.png": "/banditmanchot/static/media/image 6.3a121809fb5f81d21c27.png",
+    "static/media/Logo Velvet OrEXE 1.png": "/banditmanchot/static/media/Logo Velvet OrEXE 1.1c504f1f20cd482f20df.png",
+    "static/media/logoCouleur.png": "/banditmanchot/static/media/logoCouleur.ef328f8dc06976b93b92.png",
+    "static/media/cafe.svg": "/banditmanchot/static/media/cafe.d41050267c2720b719a3856d3c87c114.svg",
+    "static/media/Background.svg": "/banditmanchot/static/media/Background.d66f6a00a956a353314ea719389a102a.svg",
+    "static/media/VectorMiddle.svg": "/banditmanchot/static/media/VectorMiddle.398b8a053da08f0af399d8b0b2cedfa1.svg",
+    "static/media/VectorLeft.svg": "/banditmanchot/static/media/VectorLeft.71e86d08cbbc2374ebd9c831cbf8a306.svg",
+    "static/media/VectorRight.svg": "/banditmanchot/static/media/VectorRight.5f152f508238c71eb0547a4e34606153.svg",
+    "index.html": "/banditmanchot/index.html",
+    "static/media/contourRight.svg": "/banditmanchot/static/media/contourRight.aa159de053c99c8663c14225857b406c.svg",
+    "static/media/contourLeft.svg": "/banditmanchot/static/media/contourLeft.a9eff51480c0eaa81aefde6ecae9b61a.svg",
+    "static/media/bottomMiddle.svg": "/banditmanchot/static/media/bottomMiddle.c5681f4f907fd90eadff21c2b7a84c87.svg",
+    "static/media/topMiddle.svg": "/banditmanchot/static/media/topMiddle.9488bb423dd461a3b27b0c7cccf38983.svg",
+    "static/media/bottomLeft.svg": "/banditmanchot/static/media/bottomLeft.cc2aad60cb8eb9e9b41218f3da70c046.svg",
+    "static/media/topLeft.svg": "/banditmanchot/static/media/topLeft.9590a659c03ec1beaf31386b25bb16e1.svg",
+    "static/media/bottomRight.svg": "/banditmanchot/static/media/bottomRight.a91fb58ae90cf78ad1b88cccbd1f92ab.svg",
+    "main.8f1d3ba6.css.map": "/banditmanchot/static/css/main.8f1d3ba6.css.map",
+    "main.bf2c5051.js.map": "/banditmanchot/static/js/main.bf2c5051.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f1d3ba6.css",
+    "static/js/main.bf2c5051.js"
+  ]
+}

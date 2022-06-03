@@ -1,0 +1,201 @@
+.resume {
+  height: 100vh;
+  width: 100%;
+  background-color: #020618;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .background7{
+    position: absolute;
+    width: 1024px;
+    height: 2368px;
+    left: 0px;
+    top: -33px;
+    
+  }
+  .background3{
+    position: absolute;
+    width: 1024px;
+    height: 1046px;
+    left: 0px;
+    top: -3px;
+    
+  }
+  .background5{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    left: -0;
+    top: 0px;
+    
+  }
+  .background6{
+    position: absolute;
+    width: 1365px;
+    height: 768px;
+    left: -100px;
+    top: 0px;
+        
+  }
+  .background2{
+    position: absolute;
+    width: 1365px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    
+  }
+
+  .content {
+
+    z-index: 2;
+    color: #c0bcc2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+
+    .container{
+      display: flex;
+      justify-content: center;
+      margin-top: 70px;
+
+      .logo{
+        width: 298px;
+      }
+
+      .textContainer{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-sizing: border-box;
+
+        h2{
+          text-align: left;
+          text-transform: none;
+          font-family: $Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 37px;
+          padding-left: 10px;
+          /* identical to box height */
+
+
+          color: #FFFFFF;
+
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        h1{
+          text-align: left;
+          font-family: $Montserrat;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 96px;
+          line-height: 117px;
+          /* identical to box height */
+
+          color: #FFFFFF;
+
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .recap{
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-start;
+
+          h3{
+            padding-left: 10px;
+            padding-right: 20px;
+            text-transform: none;
+            font-family: $Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
+
+
+
+
+    h1 {
+      text-transform: none;
+      font-family: $Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 55px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #FFFFFF;
+
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      font-family: $fontW-1;
+      font-size: 16px;
+      text-transform: none;
+      font-weight: 500;
+    }
+
+    .container1 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .buttonContainer {
+      margin-top: 20px;
+      width: 100%;
+
+      input {
+        width: 70%;
+        margin: 0 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        resize: none;
+        outline: none;
+        font-size: 15px;
+        font-family: $fontW-1;
+        font-weight: bold;
+        border-radius: 8px;
+      }
+
+      button {
+        cursor: pointer;
+        color: white;
+        border: none;
+        resize: none;
+        outline: none;
+        padding: 10px 15px;
+        transition: all .3s;
+        background: #E33352;
+        font-family: $Roboto;
+        width: 340px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+    }
+  }
+}

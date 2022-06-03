@@ -1,0 +1,336 @@
+.tirage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .background2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .content {
+    z-index: 2;
+    width: 800px;
+    padding: 50px 60px;
+    color: #c0bcc2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .logo{
+      width: 40%;
+      padding-bottom: 50px;
+    }
+
+    .tirageBack{
+      width: 673px;
+      height: 345px;
+      position: relative;
+      margin: 20px auto;
+      margin-left: 2%;
+
+      .background {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -2%;
+        background: transparent;
+        position: absolute;
+      }
+      .left {
+        position: absolute;
+        left: 12.28%;
+        right: 68.41%;
+        top: 11.3%;
+        bottom: 13.91%;
+      }
+      .middle{
+        position: absolute;
+        left: 38.07%;
+        right: 43.17%;
+        top: 11.59%;
+        bottom: 13.91%;
+      }
+      .right {
+        position: absolute;
+        left: 63.38%;
+        right: 16.79%;
+        top: 11.34%;
+        bottom: 12.87%;
+      }
+      .contourLeft{
+        position: absolute;
+        left: 11.72%;
+        right: 85.1%;
+        top: 10.34%;
+        bottom: 12.87%;
+      }
+      .contourRight{
+        position: absolute;
+        left: 80.69%;
+        right: 13.51%;
+        top: 10.34%;
+        bottom: 12.87%;
+      }
+      .topLeft{
+        position: absolute;
+        left: 14.25%;
+        right: 68.45%;
+        top: 10.34%;
+        bottom: 88.39%;
+      }
+      .bottomLeft{
+        position: absolute;
+        left: 14.25%;
+        right: 68.45%;
+        top: 85.86%;
+        bottom: 12.87%;
+      }
+
+      .topMiddle{
+        position: absolute;
+        left: 38.55%;
+        right: 43.77%;
+        top: 10.56%;
+        bottom: 88.39%;
+      }
+
+      .topRight{
+        position: absolute;
+        left: 63.3%;
+        right: 19.01%;
+        top: 10.3%;
+        bottom: 88.39%;
+      }
+      .bottomRight{
+        position: absolute;
+        left: 63.38%;
+        right: 19.16%;
+        top: 85.56%;
+        bottom: 12.87%;
+      }
+      .bottomMiddle{
+        width: 130.25px;
+        position: absolute;
+        left: 38.6%;
+        right: 45%;
+        top: 85.46%;
+        bottom: 12.65%;
+    }
+      .containerLeft{
+        position: absolute;
+        left: 14.28%;
+        right: 68.1%;
+        top: 11.3%;
+        bottom: 13.91%;
+        background: linear-gradient(0deg, #FCFCFC 0%, #FCFCFC 3%, #FCFCFC 5%, #FCFCFC 7%, #FCFCFC 10%, #FCFCFC 12%, #FCFCFC 15%, #FCFCFC 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #FDFDFD 45%, #FDFDFD 49%, #FDFDFD 68%, #FDFDFD 76%, #FDFDFD 78%, #FDFDFD 81%, #FDFDFD 85%, #FDFDFD 89%, #FDFDFD 94%, #FDFDFD 99%, #FDFDFD 100%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+        overflow: hidden;
+        .logoContainer{
+          position: relative;
+
+          .velvetLogo {
+            margin: 0 auto;
+            height: 86px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+      }
+      .containerMiddle{
+        position: absolute;
+        left: 39.07%;
+        right: 42.17%;
+        top: 11.59%;
+        bottom: 14.5%;
+        background: linear-gradient(0deg, #FCFCFC 0%, #FCFCFC 3%, #FCFCFC 5%, #FCFCFC 7%, #FCFCFC 10%, #FCFCFC 12%, #FCFCFC 15%, #FCFCFC 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #FDFDFD 45%, #FDFDFD 49%, #FDFDFD 68%, #FDFDFD 76%, #FDFDFD 78%, #FDFDFD 81%, #FDFDFD 85%, #FDFDFD 89%, #FDFDFD 94%, #FDFDFD 99%, #FDFDFD 100%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+        overflow: hidden;
+        .logoContainer{
+          position: relative;
+
+          .velvetLogo {
+            margin: 0 auto;
+            height: 86px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      .containerRight {
+        position: absolute;
+        left: 63.38%;
+        right: 16.79%;
+        top: 11.34%;
+        bottom: 14.57%;
+        background: linear-gradient(0deg, #FCFCFC 0%, #FCFCFC 3%, #FCFCFC 5%, #FCFCFC 7%, #FCFCFC 10%, #FCFCFC 12%, #FCFCFC 15%, #FCFCFC 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #FDFDFD 45%, #FDFDFD 49%, #FDFDFD 68%, #FDFDFD 76%, #FDFDFD 78%, #FDFDFD 81%, #FDFDFD 85%, #FDFDFD 89%, #FDFDFD 94%, #FDFDFD 99%, #FDFDFD 100%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+        overflow: hidden;
+
+        .logoContainer {
+          position: relative;
+
+          .velvetLogo {
+            margin: 0 auto;
+            height: 86px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+
+    h1 {
+      font-family: $Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 55px;
+      color: white;
+      text-transform: none;
+      /* identical to box height */
+      margin-bottom: 15px;
+
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+
+      font-family: $Montserrat;
+      margin-bottom: 7px;
+      text-transform: none;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+
+      color: #FFFFFF;
+
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .manchotContainer{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      width: 400px;
+
+      .manchot1 {
+        background: linear-gradient(0deg, #141414 0%, #444444 3%, #717171 5%, #979797 7%, #B7B7B7 10%, #D1D1D1 12%, #E5E5E5 15%, #F4F4F4 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #F6F6F7 45%, #E6E7E8 49%, #ECEDED 68%, #F1F2F2 76%, #EAEBEB 78%, #D7D8D8 81%, #B8B9B9 85%, #8D8E8E 89%, #565757 94%, #141414 99%, #000000 100%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+      }
+
+      .manchot2 {
+        background: linear-gradient(0deg, #141414 0%, #444444 3%, #717171 5%, #979797 7%, #B7B7B7 10%, #D1D1D1 12%, #E5E5E5 15%, #F4F4F4 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #F6F6F7 45%, #E6E7E8 49%, #ECEDED 68%, #F1F2F2 76%, #EAEBEB 78%, #D7D8D8 81%, #B8B9B9 85%, #8D8E8E 89.01%, #565757 94.01%, #141414 99.01%, #000000 100.01%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+      }
+
+      .manchot3 {
+        background: linear-gradient(0deg, #141414 0%, #444444 3%, #717171 5%, #979797 7%, #B7B7B7 10%, #D1D1D1 12%, #E5E5E5 15%, #F4F4F4 18%, #FCFCFC 22%, #FFFFFF 29%, #FDFDFD 41%, #F6F6F7 45%, #E6E7E8 49%, #ECEDED 68%, #F1F2F2 76%, #EAEBEB 78%, #D7D8D8 81%, #B8B9B9 85%, #8D8E8E 89%, #565757 94%, #141414 99%, #000000 100%);
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+      }
+
+      .manchot{
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(3, 3, 3, 0.3);
+        width: 100px;
+        height: 180px;
+        color: white;
+        overflow: hidden;
+
+
+
+        .logoContainer{
+          position: relative;
+
+          .velvetLogo {
+            margin: 0 auto;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      }
+      }
+
+      .manchotbis{
+        position: relative;
+        background-color: rgba(3, 3, 3, 0.3);
+        width: 100px;
+        height: 170px;
+        color: white;
+        overflow: hidden;
+        transition: all 0.5s;
+
+        .manchotImage{
+          position: absolute;
+          height: 170px;
+          width: 100px;
+        }
+      }
+    }
+
+    .buttonContainer {
+      margin-top: 20px;
+      width: 100%;
+
+      button {
+        cursor: pointer;
+        color: white;
+        border: none;
+        resize: none;
+        outline: none;
+        padding: 10px 15px;
+        transition: all .3s;
+        background: #E33352;
+        font-family: $Roboto;
+        width: 340px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+
+      }
+    }
+  }
+}

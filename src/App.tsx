@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route, BrowserRouter} from "react-router-dom";
+import {Routes, Route, BrowserRouter, HashRouter} from "react-router-dom";
 import Intro from "./Pages/Intro/Intro";
 import Resume from './Pages/Resume/Resume';
 import Tirage from "./Pages/Tirage/Tirage";
@@ -11,7 +11,7 @@ import {InfoProvider} from "./Context/InfoContext";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <InfoProvider>
                     <Routes>
                         <Route path="/" element={<Intro/>}/>
@@ -22,7 +22,7 @@ function App() {
                         <Route path="/Thanks" element={<Thanks/>}/>
                     </Routes>
                 </InfoProvider>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }

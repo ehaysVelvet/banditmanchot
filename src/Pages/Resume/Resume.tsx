@@ -21,11 +21,10 @@ const Resume = () => {
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}
                     exit={{opacity: 0}}>
-            <img className={'background2'} src={require('../../Images/image2.png')} alt="img"/>
-            <img className={'background6'} src={require('../../Images/image6.png')} alt="img"/>
-            <img className={'background5'} src={require('../../Images/image5.png')} alt="img"/>
-            <img className={'background3'} src={require('../../Images/image3.png')} alt="img"/>
-            <img className={'background7'} src={require('../../Images/image7.png')} alt="img"/>
+            <img className={'background'} src={require('../../Images/tirage/Background/image 2.png')} alt="img"/>
+            <img className={'background'} src={require('../../Images/tirage/Background/image 5.png')} alt="img"/>
+            <img className={'background'} src={require('../../Images/tirage/Background/image 3.png')} alt="img"/>
+            <img className={'background'} src={require('../../Images/tirage/Background/image 6.png')} alt="img"/>
             <div className='content'>
                 <h1>Bravo !</h1>
                 <div className="container">
@@ -34,11 +33,13 @@ const Resume = () => {
                         <h2>Vous avez gagné !</h2>
                         <h1>{`${point * 10}`} Points</h1>
                         <div className="recap">
-                            <h3>récapitulatif : </h3>
+                            <h3>récapitulatif:</h3>
+                            <div style={{display: "flex", justifyContent: "center", flexDirection: "row"}}>
                             {
                                 roulette.map((res: number) =>(
                                     <RecapCard val={res}/>
                                 ))}
+                            </div>
                         </div>
                     </div>
                 </div>

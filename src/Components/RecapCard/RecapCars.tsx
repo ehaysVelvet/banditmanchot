@@ -15,13 +15,13 @@ const RecapCard = (props : Props) => {
                     animate={{opacity: 1}}
                     exit={{opacity: 0}}>
             { props.val == 1 &&
-                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} style={{width: 75}} alt="img"/>
+                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} className='recapLogo' alt="img"/>
             }
             { props.val == 2 &&
-            <img src={require('../../Images/tirage/Logo Velvet Argent.png')} style={{width: 75}} alt="img"/>
+            <img src={require('../../Images/tirage/Logo Velvet Argent.png')}className='recapLogo' alt="img"/>
             }
             { props.val == 3 &&
-            <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')} style={{width: 75}} alt="img"/>
+            <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')} className='recapLogo' alt="img"/>
             }
 
         </motion.div>

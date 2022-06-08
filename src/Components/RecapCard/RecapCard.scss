@@ -1,6 +1,14 @@
 .recapCard{
   width: 70px;
-  margin: 0 15px;
   position: relative;
   top: -10px;
+  margin-left: 15px;
+
+  @media screen and (max-width: 700px) {
+    width: 45px;
+  }
+
+  .recapLogo {
+    width: 100%;
+  }
 }

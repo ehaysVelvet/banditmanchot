@@ -2,11 +2,13 @@ import React, {useState} from "react";
 import {animate, motion, useAnimation} from 'framer-motion';
 import {useNavigate} from "react-router-dom";
 import {useInfos} from "../../Context/InfoContext";
+import useWindowDimensions from "../../Utils/UseWindowsDimension";
 
 const Tirage = () => {
 
     const navigate = useNavigate()
     const {setAllPoint, setRoulette} = useInfos()
+    const {height, width} = useWindowDimensions()
 
     const [img1, setImg1] = useState<number>(0)
     const [img2, setImg2] = useState<number>(0)
@@ -122,7 +124,7 @@ const Tirage = () => {
             <div className='content'>
                 <h1>Tirage</h1>
                 <h2>Aligner les logos de même valeur</h2>
-                <div className="tirageBack">
+                <div className={"tirageBack"}>
                     <img src={require('../../Images/tirage/Background.svg').default} alt="img" className="background"/>
                     <img src={require('../../Images/tirage/VectorLeft.svg').default} alt="img" className="left"/>
                     <div className="containerLeft">

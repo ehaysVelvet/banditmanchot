@@ -31,7 +31,9 @@ const Prestations = () => {
                 <div className="mainContainerCard">
                     <div className="cardContainer">
                         {prestationInfo.prestationInfo.map((res) => (
-                            <Presta name={res.name} pointToReach={res.point}/>
+                            <div style={{width: 164, marginLeft: 40, marginTop: 40}}>
+                                <Presta name={res.name} pointToReach={res.point}/>
+                            </div>
                         ))}
                     </div>
                 </div>

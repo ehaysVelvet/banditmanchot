@@ -14,6 +14,8 @@
     height: 100%;
     position: fixed;
     object-fit: cover;
+    top: 0;
+    left: 0;
     z-index: 0;
     background-color: #020618;
   }
@@ -23,6 +25,8 @@
     height: 100%;
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
     background: linear-gradient(black, rgba(255, 255, 255, 0));
     opacity: 0.8;
 
@@ -45,6 +49,10 @@
     //border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 20%;
 
+    @media screen and (max-width: 500px){
+      padding: 50px 5px;
+    }
+
 
     .logo{
       width: 149px;
@@ -54,27 +62,38 @@
 
 
     h1 {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $Montserrat;
       font-weight: bold;
       font-size: 45px;
       margin-bottom: 20px;
       color: #FFFF;
+
+      @media screen and (max-width: 500px){
+        font-size: 30px;
+      }
     }
 
     .style1{
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $Montserrat;
       font-weight: 700;
       font-size: 20px;
       line-height: 24px;
       color: #FFFFFF;
+
+      @media screen and (max-width: 500px){
+        font-size: 16px;
+      }
     }
 
     .style2{
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $Montserrat;
       font-weight: 400;
       font-size: 19px;
       line-height: 24px;
       color: #FFFFFF;
+      @media screen and (max-width: 500px){
+        font-size: 15px;
+      }
     }
     .container1 {
       margin-top: 10px;
@@ -94,9 +113,11 @@
         resize: none;
         outline: none;
         font-size: 15px;
-        font-family: $fontW-1;
-        font-weight: bold;
+        font-family: $Roboto;
         border-radius: 8px;
+        @media screen and (max-width: 500px){
+          width: 70%;
+        }
       }
 
       button {

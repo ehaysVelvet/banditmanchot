@@ -7,45 +7,14 @@
   flex-direction: column;
   align-items: center;
 
-  .background7{
-    position: absolute;
-    width: 1024px;
-    height: 2368px;
-    left: 0px;
-    top: -33px;
-    
-  }
-  .background3{
-    position: absolute;
-    width: 1024px;
-    height: 1046px;
-    left: 0px;
-    top: -3px;
-    
-  }
-  .background5{
-    position: absolute;
-    width: 1024px;
-    height: 768px;
-    left: -0;
-    top: 0px;
-    
-  }
-  .background6{
-    position: absolute;
-    width: 1365px;
-    height: 768px;
-    left: -100px;
-    top: 0px;
-        
-  }
-  .background2{
-    position: absolute;
-    width: 1365px;
-    height: 768px;
-    left: 0px;
-    top: 0px;
-    
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
   }
 
   .content {
@@ -62,6 +31,11 @@
       display: flex;
       justify-content: center;
       margin-top: 70px;
+      @media screen and (max-width: 700px){
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
 
       .logo{
         width: 298px;
@@ -70,14 +44,29 @@
           width: 250px;
           height: 250px;
         }
+
+        @media screen and (max-width: 700px){
+          width: 150px;
+          height: 150px;
+        }
+
       }
 
       .textContainer{
+        margin-top: 20px;
         margin-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         box-sizing: border-box;
+
+
+        @media screen and (max-width: 700px){
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          margin-left: 0;
+        }
 
         h2{
           text-align: left;
@@ -110,6 +99,9 @@
 
           @media screen and (max-width: 940px){
             font-size: 80px;
+          }
+          @media screen and (max-width: 600px){
+            font-size: 60px;
           }
         }
         .recap{

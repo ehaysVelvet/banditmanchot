@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/banditmanchot/static/css/main.9d5ac2be.css",
-    "main.js": "/banditmanchot/static/js/main.97cc9501.js",
+    "main.js": "/banditmanchot/static/js/main.d48699db.js",
     "static/media/image 2.png": "/banditmanchot/static/media/image 2.dd196d92c9be35cf4de8.png",
     "static/media/imageback.png": "/banditmanchot/static/media/imageback.5e2b529b34a1faad788d.png",
     "static/media/Logo Velvet Bronze.png": "/banditmanchot/static/media/Logo Velvet Bronze.5214ac1aadb92b6c40b5.png",
@@ -26,10 +26,10 @@
     "static/media/topLeft.svg": "/banditmanchot/static/media/topLeft.9590a659c03ec1beaf31386b25bb16e1.svg",
     "static/media/bottomRight.svg": "/banditmanchot/static/media/bottomRight.a91fb58ae90cf78ad1b88cccbd1f92ab.svg",
     "main.9d5ac2be.css.map": "/banditmanchot/static/css/main.9d5ac2be.css.map",
-    "main.97cc9501.js.map": "/banditmanchot/static/js/main.97cc9501.js.map"
+    "main.d48699db.js.map": "/banditmanchot/static/js/main.d48699db.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5ac2be.css",
-    "static/js/main.97cc9501.js"
+    "static/js/main.d48699db.js"
   ]
 }

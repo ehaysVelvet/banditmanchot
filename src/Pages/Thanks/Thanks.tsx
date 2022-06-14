@@ -12,7 +12,7 @@ const Thanks = () => {
         setTimeout(function () {
             reset()
             navigate('/')
-        }, 447000);
+        }, 7000);
     }, [])
 
     return (

@@ -125,7 +125,7 @@ const Tirage = () => {
                 <h1>Tirage</h1>
                 <h2>Aligner les logos de même valeur</h2>
                 <div className={"tirageBack"}>
-                    <img src={require('../../Images/tirage/Background.svg').default} alt="img" className="background"/>
+                    {/*<img src={require('../../Images/tirage/Background.svg').default} alt="img" className="background"/>
                     <img src={require('../../Images/tirage/VectorLeft.svg').default} alt="img" className="left"/>
                     <div className="containerLeft">
                         <motion.div className="logoContainer"
@@ -511,6 +511,382 @@ const Tirage = () => {
                             </div>
                             <div className="velvetLogo">
                                 <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')} style={{width: 76, height: 76}} alt="img"/>
+                            </div>
+                        </motion.div>
+                    </div>
+                    */}
+                    <img src={require('../../Images/roue.png')} alt="img"
+                         className="roue"/>
+                    <div className="containerLeft">
+                        <motion.div className="logoContainer"
+                                    initial={{y: 0}}
+                                    animate={controls}
+                                    transition={{ease: "easeOut", duration: 3, stiffness: 2000, damping: 3}}>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+
+                        </motion.div>
+                    </div>
+                    <div className="containerMiddle">
+                        <motion.div className="logoContainer"
+                                    initial={{y: 0}}
+                                    animate={controls2}
+                                    transition={{ease: "easeOut", duration: 3.33, stiffness: 1000}}>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                        </motion.div>
+                    </div>
+                    <div className="containerRight">
+                        <motion.div className="logoContainer"
+                                    initial={{y: 0}}
+                                    animate={controls3}
+                                    transition={{ease: "easeOut", duration: 3.66, stiffness: 1000}}>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
                             </div>
                         </motion.div>
                     </div>

@@ -1,11 +1,41 @@
 .prestaCard{
   width: 164px;
-  background: #FFFFFF;
-  border: 1px solid #CC29CA;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 12px;
+  height: 191px;
 
   position: relative;
+
+  .backCard{
+    background: #FFFFFF;
+    border: 1px solid #CC29CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    .backContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .frontCard{
+    background: #FFFFFF;
+    border: 1px solid #CC29CA;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
 
   .pointContainer{
     position: absolute;

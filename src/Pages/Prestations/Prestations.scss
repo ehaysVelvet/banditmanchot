@@ -51,9 +51,9 @@
       .cardContainer{
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         flex-wrap: wrap;
-        margin: 0 auto;
-        width: 907px;
+        width: 100%;
 
         @media screen and (max-width: 930px ){
           width: 680px;

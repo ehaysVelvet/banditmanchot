@@ -10,10 +10,18 @@ import prestationInfo from "../../Constant/prestationInfo";
 const Prestations = () => {
     const navigate = useNavigate()
 
-    const {point, pointUse} = useInfos()
+    const {email,
+        point, 
+        pointUse,
+        prestation,} = useInfos()
 
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
+        await setDoc(doc(db, "players", email), {
+            email, point, pointUse, prestation,
+        }).catch((error)=>{
+            console.log(error);
+        });
         navigate('/info')
     }
     return (

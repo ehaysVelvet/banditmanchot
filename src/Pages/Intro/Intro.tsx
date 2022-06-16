@@ -32,6 +32,11 @@ const Intro = () => {
             setError('E-mail non valide')
             return
         }
+        await setDoc(doc(db, "players", email), {
+            email,
+        }).catch((error)=>{
+            console.log(error);
+        });
         navigate('/Tirage')
     }
     return (

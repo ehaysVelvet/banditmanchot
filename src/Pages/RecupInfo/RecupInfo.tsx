@@ -38,9 +38,18 @@ const RecupInfo = () => {
             setError('Veuillez renseigner votre nom')
             return
         }
+        console.log( "email: " +  email);
+        console.log( "Civil: " +  civil);
+        console.log( "sujrname: " +  surname);
+        console.log( "name: " +  name);
+        console.log( "point: " +  point);
+        console.log( "POintUse: " +  pointUse);
+        console.log( "prestation: " +  prestation);
 
         await setDoc(doc(db, "players", email), {
             email, civil, surname, name, point, pointUse, prestation: prestation,
+        }).catch((error)=>{
+            console.log(error);
         });
         navigate('/Thanks')
     }

@@ -24,12 +24,16 @@ const Presta = (props: Props) => {
         if (click) {
             console.log('remove')
             let p = prestation
-            var index = p.indexOf(props.name)
-            delete p[index]
+            const index = p.indexOf(props.name);
+                if (index > -1) {
+                    p.splice(index, 1); // 2nd parameter means remove one item only
+}
+            //delete p[index]
             setPrestation(p)
             setPointUse(pointUse + props.pointToReach)
             setClick(false)
         }
+        console.log(prestation);
     }
 
     const test = () => {

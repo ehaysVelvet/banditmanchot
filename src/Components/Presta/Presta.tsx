@@ -5,6 +5,7 @@ import {useInfos} from "../../Context/InfoContext";
 interface Props {
     name: string,
     pointToReach: number,
+    data: string,
 }
 
 const Presta = (props: Props) => {

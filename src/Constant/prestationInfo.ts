@@ -1,31 +1,44 @@
 export default {
     prestationInfo: [
         {
-            name: "Café offert à l'agence",
-            point: 10
+            name: "Acquisition",
+            point: 10,
+            data: "(SEO, SEA, Média etc.)"
         },
         {
-            name: "Café offert à l'agence",
-            point: 20
+            name: "Web perf",
+            point: 20,
+            data: "(performance technique)"
+
         },
         {
-            name: "Café offert à l'agence",
-            point: 30
+            name: "Expérience",
+            point: 30,
+            data: "(parcours)"
+
         },
         {
-            name: "Café offert à l'agence",
-            point: 40
+            name: "UX/UI",
+            point: 40,
+            data: "(ergonomie et design)"
+
         },
         {
-            name: "Café offert à l'agence",
-            point: 50
+            name: "Biais cognitifs ",
+            point: 50,
+            data: "(psycho)"
+
         },
         {
-            name: "Café offert à l'agence",
-            point: 60
+            name: "Content ",
+            point: 60,
+            data: "(contenu, copywriting)"
+
         },
         {
-            name: "Café offert à l'agence",
-            point: 70
+            name: "Web Analytics",
+            point: 70,
+            data: "(performance data)"
+
         }]
 };

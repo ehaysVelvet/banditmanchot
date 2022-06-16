@@ -1,0 +1,25 @@
+.flip{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  position: relative;
+
+  .backCard{
+    background: #b1465b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .frontCard{
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+}

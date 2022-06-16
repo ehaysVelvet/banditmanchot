@@ -1,11 +1,12 @@
 import React, {useState} from "react";
-import {motion} from 'framer-motion';
+import {AnimatePresence, AnimateSharedLayout, motion} from 'framer-motion';
 import {useNavigate} from "react-router-dom";
 import {doc, setDoc} from "firebase/firestore";
 import {db} from "../../Firebase/firebase";
 import {useInfos} from "../../Context/InfoContext";
 import Presta from "../../Components/Presta/Presta";
 import prestationInfo from "../../Constant/prestationInfo";
+import Flip from "../../Components/Flip/flip";
 
 const Prestations = () => {
     const navigate = useNavigate()
@@ -24,6 +25,8 @@ const Prestations = () => {
         });
         navigate('/info')
     }
+
+
     return (
         <motion.div className="presta"
                     initial={{opacity: 0}}
@@ -47,7 +50,6 @@ const Prestations = () => {
                 </div>
                 <div className={'buttonContainer'}>
                     <button onClick={handleSubmit}>Valider la prestation</button>
-
                 </div>
             </div>
         </motion.div>

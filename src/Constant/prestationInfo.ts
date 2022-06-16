@@ -3,42 +3,42 @@ export default {
         {
             name: "Acquisition",
             point: 10,
-            data: "(SEO, SEA, Média etc.)"
+            data: "SEO, SEA, Média etc."
         },
         {
             name: "Web perf",
             point: 20,
-            data: "(performance technique)"
+            data: "performance technique"
 
         },
         {
             name: "Expérience",
             point: 30,
-            data: "(parcours)"
+            data: "parcours"
 
         },
         {
             name: "UX/UI",
             point: 40,
-            data: "(ergonomie et design)"
+            data: "ergonomie et design"
 
         },
         {
             name: "Biais cognitifs ",
             point: 50,
-            data: "(psycho)"
+            data: "psycho"
 
         },
         {
             name: "Content ",
             point: 60,
-            data: "(contenu, copywriting)"
+            data: "contenu, copywriting"
 
         },
         {
             name: "Web Analytics",
             point: 70,
-            data: "(performance data)"
+            data: "performance data"
 
         }]
 };

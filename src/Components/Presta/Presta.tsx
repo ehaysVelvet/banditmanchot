@@ -34,9 +34,9 @@ const Presta = (props: Props) => {
             console.log('remove')
             let p = prestation
             const index = p.indexOf(props.name);
-                if (index > -1) {
-                    p.splice(index, 1); // 2nd parameter means remove one item only
-}
+            if (index > -1) {
+                p.splice(index, 1); // 2nd parameter means remove one item only
+            }
             //delete p[index]
             setPrestation(p)
             setPointUse(pointUse + props.pointToReach)
@@ -48,10 +48,15 @@ const Presta = (props: Props) => {
     const swap = () => {
         if (isFront) {
             setIsFront(false)
-            setAnimationFront({rotateY: 90, skewX: 45, transition: {duration: 0.5}})
+            setAnimationFront({rotateY: 90,
+                skewX: 45,
+                scale: 1.1,
+                transition: {duration: 0.5}})
         } else {
             setIsFront(true)
-            setAnimationBack({rotateY: 90, skewX: 45, transition: {duration: 0.5}})
+            setAnimationBack({rotateY: 90, skewX: 45,
+                scale: 1.1,
+                transition: {duration: 0.5}})
         }
     }
 
@@ -70,7 +75,10 @@ const Presta = (props: Props) => {
                         animate={animationFront}
                         onAnimationComplete={() => {
                             if (!isFront)
-                                setAnimationBack({rotateY: 0, skewX: [-45, 0], transition: {duration: 0.5}})
+                                setAnimationBack({rotateY: 0,
+                                    skewX: [-45, 0],
+                                    scale: 1,
+                                    transition: {duration: 0.5}})
                         }}
                         style={click ? {
                             background: 'rgba(255, 255, 255, 0.4)',
@@ -79,7 +87,6 @@ const Presta = (props: Props) => {
                             background: 'rgba(255, 255, 255, 1)',
                             border: '1px solid #D9D9D9'
                         }}
-
             >
                 <div className="pointContainer"
                      onClick={() => {
@@ -105,7 +112,10 @@ const Presta = (props: Props) => {
                         animate={animationBack}
                         onAnimationComplete={() => {
                             if (isFront)
-                                setAnimationFront({rotateY: 0, skewX: [-45, 0], transition: {duration: 0.5}})
+                                setAnimationFront({rotateY: 0,
+                                    skewX: [-45, 0],
+                                    scale: 1,
+                                    transition: {duration: 0.5}})
                         }}
                         style={click ? {
                             background: 'rgba(255, 255, 255, 0.4)',

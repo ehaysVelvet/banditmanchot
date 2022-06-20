@@ -44,7 +44,7 @@ const Intro = () => {
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}
                     exit={{opacity: 0}}>
-            <img className={'background'} src={require('../../Images/imageback.png')} alt="img"/>
+            <img className={'background'} src={require('../../Images/try.png')} alt="img"/>
              <div className="background2"/>
             <div className='content'>
                 <img className={'logo'} src={require('../../Images/logoCouleur.png')} alt="img"/>

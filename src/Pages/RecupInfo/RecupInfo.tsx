@@ -26,7 +26,7 @@ const RecupInfo = () => {
     const [error, setError] = useState('')
 
     const handleSubmit = async () => {
-        if (civil.length != 1) {
+        if (civil.length < 1) {
             setError('Veuillez renseigner votre état civile')
             return
         }
@@ -86,7 +86,7 @@ const RecupInfo = () => {
     }
     const handleMF = () => {
         setCiv(3)
-        setCivil('il/elle')
+        setCivil('Non-binaire')
     }
 
     return (

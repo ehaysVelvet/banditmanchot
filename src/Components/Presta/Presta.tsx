@@ -8,6 +8,7 @@ interface Props {
     name: string,
     pointToReach: number,
     data: string,
+    url: string,
 }
 
 const Presta = (props: Props) => {
@@ -99,7 +100,7 @@ const Presta = (props: Props) => {
                          handleClick()
                      }}>
                     <div className="logoContainer">
-                        <img src={require('../../Images/cafe.svg').default} alt="img"/>
+                        <img src={props.url} alt="img"/>
                     </div>
                     <div className="textContainer"
                          style={props.pointToReach > pointUse || click ? {background: '#D9D9D9'} : {}}>

@@ -104,8 +104,8 @@ const RecupInfo = () => {
                 <h2>Parce que vous êtes unique nous aimerions avoir un peu plus d'informations sur vous</h2>
                 <div className="formContainer">
                     <div className="civilContainer">
-                        <button className={getColorFem()} style={{"width": "30%"}} onClick={handleFem}>Monsieur</button>
-                        <button className={getColorMasc()}  style={{"width": "30%"}}onClick={handleMasc}>Madame</button>
+                        <button className={getColorMasc()}  style={{"width": "30%"}}onClick={handleMasc}>Monsieur</button>
+                        <button className={getColorFem()} style={{"width": "30%"}} onClick={handleFem}>Madame</button>
                         <button className={getColorMF()}  style={{"width": "30%"}}onClick={handleMF}>Non-binaire</button>
 
                     </div>

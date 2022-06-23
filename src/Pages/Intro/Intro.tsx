@@ -48,14 +48,13 @@ const Intro = () => {
              <div className="background2"/>
             <div className='content'>
                 <img className={'logo'} src={require('../../Images/logoCouleur.png')} alt="img"/>
-                <h1>Gagnez une prestation Velvet</h1>
+                <h1>Jouez pour gagner une prestation CRO avec Velvet !</h1>
                 <div className={'container1'}>
-                    <p className="style1">Lancez le tirage et aligner les logos Velvet.</p>
-                    <p className="style2">Plus ils sont rares et plus la prestation sera conséquente et il n'y a pas de perdants.</p>
-                    <p className="style1"> Aucun perdants !</p>
+                    <p className="style1">Le CRO : Une vision pragmatique de l’expérience utilisateur</p>
+
                 </div>
-                <p className="style2">Saisissez votre e-mail professionel</p>
-                <p className="style2">pour tenter de gagner une préstation Velvet</p>
+                <p className="style2">Saisissez votre e-mail professionel pour commencer à jouer</p>
+                {/* <p className="style2">pour commencer à jouer</p> */}
                 <div className={'buttonContainer'}>
                     <input type="text" placeholder='Mon e-mail professionel' onChange={(e) => {
                         setEmail(e.target.value)

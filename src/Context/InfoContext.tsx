@@ -1,4 +1,5 @@
 import React, {useContext, useEffect, useMemo, useState} from 'react'
+import { setEmitFlags } from 'typescript'
 
 const InfoContext = React.createContext({})
 
@@ -15,6 +16,8 @@ export function InfoProvider({children}: any) {
     const [civil, setCivil] = useState<string>('')
     const [pointUse, setPointUse] = useState<number>(point * 10)
     const [roulette, setRoulette] = useState<any[]>([])
+    const [tel, setTel] = useState<string>((''))
+
 
     const reset = () => {
         setEmail('')
@@ -25,6 +28,7 @@ export function InfoProvider({children}: any) {
         setCivil('')
         setPointUse(0)
         setRoulette([])
+        setTel('')
     }
 
     const setAllPoint = (val : number) => {
@@ -41,7 +45,9 @@ export function InfoProvider({children}: any) {
             civil,
             roulette,
             pointUse,
+            tel,
             setPoint,
+            setTel,
             setEmail,
             setName,
             setSurname,
@@ -53,7 +59,7 @@ export function InfoProvider({children}: any) {
             setAllPoint
 
         }),
-        [email, point, name, surname, prestation, civil, pointUse, roulette]);
+        [email, point, name, surname, prestation, civil, pointUse, roulette, tel]);
 
     return (
         <InfoContext.Provider value={value}>

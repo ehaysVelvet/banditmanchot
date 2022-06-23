@@ -9,7 +9,7 @@ const RecupInfo = () => {
 
     const navigate = useNavigate()
 
-    const {setSurname, setName} = useInfos()
+    const {setSurname, setName, setTel} = useInfos()
     const [civ, setCiv] = useState(0)
 
     const {
@@ -21,6 +21,7 @@ const RecupInfo = () => {
         pointUse,
         civil,
         setCivil,
+        tel,
     } = useInfos()
 
     const [error, setError] = useState('')
@@ -47,7 +48,7 @@ const RecupInfo = () => {
         console.log( "prestation: " +  prestation);
 
         await setDoc(doc(db, "players", email), {
-            email, civil, surname, name, point, pointUse, prestation: prestation,
+            email, civil, surname, name, point, pointUse, prestation: prestation, tel,
         }).catch((error)=>{
             console.log(error);
         });
@@ -118,6 +119,13 @@ const RecupInfo = () => {
                             setName(e.target.value)
                             console.log(e)
                         }}/>
+                        <div className="num">
+                        <input placeholder='+33' disabled/>
+                        <input type="tel" placeholder='Numero de telephone' onChange={(e) => {
+                            setTel(e.target.value)
+                            console.log(e)
+                        }}/>
+                        </div>
                         <button onClick={handleSubmit}>Envoyer</button>
                     </div>
                     <h2 style={{color: '#d78d8d', paddingTop: 10}}>{error}</h2>

@@ -3,12 +3,13 @@ import {motion} from 'framer-motion';
 import {useInfos} from "../../Context/InfoContext";
 import {MdReadMore} from "react-icons/md";
 import {TiArrowBack} from "react-icons/ti";
+import {GiCheckMark} from 'react-icons/gi'
 
 interface Props {
     name: string,
     pointToReach: number,
-    data: string,
     url: string,
+    back: string,
 }
 
 const Presta = (props: Props) => {
@@ -67,9 +68,6 @@ const Presta = (props: Props) => {
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}
                     exit={{opacity: 0}}
-                    style={click ? {
-                        height: 196
-                    } : {}}
         >
             <motion.div className={'frontCard'}
                         initial={{rotateY: 0}}
@@ -81,30 +79,24 @@ const Presta = (props: Props) => {
                                     scale: 1,
                                     transition: {duration: 0.5}})
                         }}
-                        style={click ? {
-                            background: 'rgba(255, 255, 255, 0.4)',
-                            border: '5px solid #D9D9D9'
-                        } : {
-                            background: 'rgba(255, 255, 255, 1)',
-                            border: '1px solid #D9D9D9'
+                        onClick={() => {
+                            swap()
                         }}
             >
-                <div className="pointContainer"
-                     onClick={() => {
-                         swap()
-                     }}>
-                    <MdReadMore style={{fontSize: 35}}/>
-                </div>
-                <div style={{height: '100%', width: '100%'}}
-                     onClick={() => {
-                         handleClick()
-                     }}>
+                <motion.div className="pointContainer"
+                            onClick={() => {
+                                swap()
+                            }}
+                            initial={{scale : 0}}
+                            animate={click ? {scale: 1} : {scale : 0}}>
+                    <GiCheckMark style={{fontSize: 35}}/>
+                </motion.div>
+                <div style={{height: '100%', width: '100%'}}>
                     <div className="logoContainer">
                         <img src={props.url} alt="img"/>
                     </div>
-                    <div className="textContainer"
-                         style={props.pointToReach > pointUse || click ? {background: '#D9D9D9'} : {}}>
-                        <h2 style={props.pointToReach > pointUse || click ? {color: '#000'} : {}}>{props.name}</h2>
+                    <div className="textContainer">
+                        <h2>{props.name}</h2>
                     </div>
                 </div>
             </motion.div>
@@ -118,24 +110,32 @@ const Presta = (props: Props) => {
                                     scale: 1,
                                     transition: {duration: 0.5}})
                         }}
-                        style={click ? {
-                            background: 'rgba(255, 255, 255, 0.4)',
-                            border: '5px solid #D9D9D9'
-                        } : {
-                            background: 'rgba(255, 255, 255, 1)',
-                            border: '1px solid #D9D9D9'
-                        }}>
-                <div className="pointContainer"
+                        >
+                <motion.div className="pointContainer"
                      onClick={() => {
                          swap()
-                     }}>
-                    <TiArrowBack style={{fontSize: 35}}/>
-                </div>
-                <div style={{height: '100%', width: '100%'}} className={'backContainer'}
-                     onClick={() => {
-                         handleClick()
-                     }}>
-                    <p style={{color: "black", fontSize: 20}}>{props.data}</p>
+                     }}
+                            initial={{scale : 0}}
+                            animate={click ? {scale: 1} : {scale : 0}}
+                    >
+                    <GiCheckMark style={{fontSize: 35}}/>
+                </motion.div>
+                <div style={{height: '100%', width: '100%'}} className={'backContainer'}>
+                    <div className={'top'}
+                         onClick={() => {
+                             swap()
+                         }}>
+                        <img src={props.url} alt="img"/>
+                        <p>{props.back}</p>
+                    </div>
+                    <div className={'bottom'}
+                         onClick={() => {
+                             handleClick()
+                         }}>
+                        <h3>{
+                            click ? 'Supprimer ce besoin' : 'Choisir ce besoin'
+                        }</h3>
+                    </div>
                 </div>
             </motion.div>
         </motion.div>

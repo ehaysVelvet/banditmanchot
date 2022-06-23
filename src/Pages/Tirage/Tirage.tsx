@@ -67,9 +67,9 @@ const Tirage = () => {
         if (click){
             return
         }
-        let var1 = getRandomInt(1, 3)
-        let var2 = getRandomInt(1, 3)
-        let var3 = getRandomInt(1, 3)
+        let var1 = getRandomInt(1, 4)
+        let var2 = getRandomInt(1, 4)
+        let var3 = getRandomInt(1, 4)
         setImg1(var1)
         setImg2(var2)
         setImg3(var3)
@@ -638,6 +638,24 @@ const Tirage = () => {
                                     initial={{y: 0}}
                                     animate={controls2}
                                     transition={{ease: "easeOut", duration: 3.33, stiffness: 1000}}>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet Argent.png')}  alt="img"/>
+                            </div>
+                            <div className="velvetLogo">
+                                <img src={require('../../Images/tirage/Logo Velvet OrEXE 1.png')}  alt="img"/>
+                            </div>
                             <div className="velvetLogo">
                                 <img src={require('../../Images/tirage/Logo Velvet Bronze.png')} alt="img"/>
                             </div>

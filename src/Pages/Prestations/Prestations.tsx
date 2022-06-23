@@ -37,23 +37,23 @@ const Prestations = () => {
             <img className={'background'} src={require('../../Images/tirage/Background/image 3.png')} alt="img"/>
             <img className={'background'} src={require('../../Images/tirage/Background/image 6.png')} alt="img"/>
             <div className='content'>
-                <h1>Les prestations Velvet</h1>
-                <h2>Choisissez votre prestation avec vos <b>{point * 10} points gagnés</b></h2>
+                <h1>Quels sont vos besoins CRO ?</h1>
                 <div className="mainContainerCard">
                     <div className="cardContainer">
                         {prestationInfo.prestationInfo.map((res) => (
-                            <div style={{width: 164, marginLeft: 40, marginTop: 40}}>
-                                <Presta name={res.name} pointToReach={res.point} data={res.data} url={res.url}/>
+                            <div style={{width: 190, marginRight: 40, marginTop: 40}}>
+                                <Presta name={res.name} pointToReach={res.point} url={res.url} back={res.back}/>
                             </div>
                         ))}
                     </div>
                 </div>
                 <div className={'buttonContainer'}>
-                    <button onClick={handleSubmit}>Valider la prestation</button>
+                    <button onClick={handleSubmit}>Valider mes besoins</button>
                 </div>
             </div>
         </motion.div>
     );
+
 };
 
 export default Prestations;

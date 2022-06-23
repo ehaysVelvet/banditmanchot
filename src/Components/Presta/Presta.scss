@@ -1,12 +1,13 @@
 .prestaCard{
-  width: 164px;
+  width: 190px;
   height: 191px;
+  margin-left: 30px;
   position: relative;
 
   .backCard{
     background: #FFFFFF;
     border: 1px solid #CC29CA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
     position: absolute;
     display: flex;
@@ -19,8 +20,62 @@
 
     .backContainer{
       display: flex;
-      justify-content: center;
-      align-items: center;
+      border-radius: 12px;
+      overflow: hidden;
+      flex-direction: column;
+
+      .top {
+        height: 80%;
+        width: 100%;
+        background: #E33352;
+        padding: 10px;
+        position: relative;
+
+        img {
+          position: absolute;
+          height: 80px;
+          bottom: 3px;
+          right: 3px;
+          opacity: 0.2;
+          filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(168deg) brightness(102%) contrast(102%);
+        }
+
+        p{
+          text-align: left;
+          font-family: $Montserrat;
+          font-style: normal;
+          text-transform: none;
+          font-weight: 500;
+          font-size: 14px;
+          text-shadow: none;
+          padding: 0;
+          padding-top: 14px;
+          color: white;
+        }
+      }
+
+      .bottom {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+
+        h3{
+          text-align: center;
+          font-family: $Montserrat;
+          font-style: normal;
+          text-transform: capitalize;
+          font-weight: 600;
+          line-height: 15px;
+          font-size: 14px;
+          text-shadow: none;
+          padding: 0;
+          color: black;
+        }
+      }
     }
   }
 
@@ -47,12 +102,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 24px;
+    z-index: 2;
 
     h2 {
       font-family: $Montserrat;
       font-style: normal;
       font-weight: 700;
       font-size: 20px;
+
       line-height: 24px;
       text-align: center;
       color: #FFFFFF;
@@ -79,17 +136,35 @@
     height: 66px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     background: #E33352;
     border-radius: 0 0 12px 12px;
+    padding: 7px;
 
     h2{
       font-family: $Montserrat;
       font-style: normal;
       font-weight: 600;
+      text-align: left;
       font-size: 18px;
-      line-height: 22px;
+      padding: 0;
       text-shadow: none;
+      margin: 0;
+      padding-left: 5px;
+      color: #FFFFFF;
+    }
+
+    h3{
+      text-align: left;
+      font-family: $Montserrat;
+      font-style: normal;
+      text-transform: capitalize;
+      font-weight: 400;
+      line-height: 15px;
+      font-size: 14px;
+      text-shadow: none;
+      padding: 0;
 
       color: #FFFFFF;
     }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/banditmanchot/static/css/main.0e5cea55.css",
-    "main.js": "/banditmanchot/static/js/main.882967b8.js",
+    "main.js": "/banditmanchot/static/js/main.d5ffd9b8.js",
     "static/media/image 2.png": "/banditmanchot/static/media/image 2.dd196d92c9be35cf4de8.png",
     "static/media/roue.png": "/banditmanchot/static/media/roue.766ac71e9f9c7ea71217.png",
     "static/media/try.png": "/banditmanchot/static/media/try.1625d30dae2fbcc29ec5.png",
@@ -15,10 +15,10 @@
     "static/media/logoCouleur.png": "/banditmanchot/static/media/logoCouleur.ef328f8dc06976b93b92.png",
     "index.html": "/banditmanchot/index.html",
     "main.0e5cea55.css.map": "/banditmanchot/static/css/main.0e5cea55.css.map",
-    "main.882967b8.js.map": "/banditmanchot/static/js/main.882967b8.js.map"
+    "main.d5ffd9b8.js.map": "/banditmanchot/static/js/main.d5ffd9b8.js.map"
   },
   "entrypoints": [
     "static/css/main.0e5cea55.css",
-    "static/js/main.882967b8.js"
+    "static/js/main.d5ffd9b8.js"
   ]
 }

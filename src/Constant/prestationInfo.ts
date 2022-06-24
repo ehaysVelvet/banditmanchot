@@ -1,9 +1,9 @@
 export default {
     prestationInfo: [
         {
-            name: "Expérience -> CX",
+            name: "CX",
             point: 30,
-            back: 'Analyse et améliorer le comportement client pour assurer l’objectif CRO',
+            back: 'Analyser et améliorer le comportement client pour assurer l’objectif CRO',
             url: require('../Images/stars.svg').default
 
 
@@ -33,7 +33,7 @@ export default {
         {
             name: "Content/SEO",
             point: 60,
-            back: 'Travailler el contenu éditorial pour gagner en référencement',
+            back: 'Travailler le contenu éditorial pour gagner en référencement',
             url: require('../Images/pencil.svg').default
 
 
@@ -41,7 +41,7 @@ export default {
         {
             name: "Advanced Analytics",
             point: 70,
-            back: 'Analyser les comportement utilisateur via des outils de tracking',
+            back: 'Analyser les comportements utilisateurs via des outils de tracking',
             url: require('../Images/analytics.svg').default
 
 
